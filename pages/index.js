@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import Header from '../components/Header'
+import BuildingPage from '../components/BuildingPage'
 
 
 import * as React from 'react'
@@ -17,7 +18,8 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header />
+        {/* <Header /> */}
+        <BuildingPage />
       </main>
 
     </div >
